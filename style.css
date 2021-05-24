@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 50px;
+  font-family: cursive;
+  background-color: chocolate;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  padding: 10px;
+  font-family: cursive;
+}
+.display {
+  height: 50px;
+  width: 150px;
+  border: 2px solid black;
+}

@@ -1,0 +1,25 @@
+{
+  "name": "translator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "babel.config.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shrutibattu/translator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shrutibattu/translator/issues"
+  },
+  "homepage": "https://github.com/shrutibattu/translator#readme",
+  "dependencies": {
+    "@babel/preset-env": "^7.14.2",
+    "jest": "^26.6.3"
+  },
+  "devDependencies": {}
+}
