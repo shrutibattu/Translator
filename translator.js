@@ -1,13 +1,4 @@
 export const translateEnglishToMorse = (word) => {
-  // if (word === "a") {
-  //   return ".-";
-  // } else if (word === "b") {
-  //   return "-...";
-  // } else if (word === "c") {
-  //   return "-.-.";
-  // } else {
-  //   return "unavailable";
-  // }
   let alphabet = "unavailable";
   switch (word) {
     case "a":
