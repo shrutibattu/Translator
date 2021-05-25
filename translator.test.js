@@ -28,6 +28,24 @@ it("should translate g to --.", () => {
   const result = translateEnglishToMorse("g");
   expect(result).toBe("--.");
 });
+it("should translate h to ....", () => {
+  const result = translateEnglishToMorse("h");
+  expect(result).toBe("....");
+});
+it("should translate i to ..", () => {
+  const result = translateEnglishToMorse("i");
+  expect(result).toBe("..");
+});
+it("should translate j to .---", () => {
+  const result = translateEnglishToMorse("j");
+  expect(result).toBe(".---");
+});
+
+it("should translate k to .---", () => {
+  const result = translateEnglishToMorse("k");
+  expect(result).toBe("-.-");
+});
+
 it("should translate default to unavailable", () => {
   const result = translateEnglishToMorse("default");
   expect(result).toBe("unavailable");

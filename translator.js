@@ -22,6 +22,18 @@ export const translateEnglishToMorse = (word) => {
     case "g":
       alphabet = "--.";
       break;
+    case "h":
+      alphabet = "....";
+      break;
+    case "i":
+      alphabet = "..";
+      break;
+    case "j":
+      alphabet = ".---";
+      break;
+    case "k":
+      alphabet = "-.-";
+      break;
     default:
       alphabet = "unavailable";
   }
